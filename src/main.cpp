@@ -31,7 +31,7 @@ int countneighbors(int c, int h, int w) {
 			}
 		}
 	}
-	
+
 	return count;
 }
 
@@ -89,8 +89,8 @@ int main() {
 		currentIndex = nextIndex;
 
 		printf("Generation: %d", generation);
-		//Sleep(1);		
+		//Sleep(1);
 	}
-	
+
 	return 0;
 }
